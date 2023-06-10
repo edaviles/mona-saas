@@ -206,10 +206,10 @@ resource appPlan 'Microsoft.Web/serverfarms@2018-02-01' = if (empty(appServicePl
   name: appPlanName
   location: location
   sku: {
-    name: 'S1'
-    tier: 'Standard'
-    size: 'S1'
-    family: 'S'
+    name: 'B1'
+    tier: 'Basic'
+    size: 'B1'
+    family: 'B'
     capacity: 1
   }
   properties: {
